@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style>
+      body {
+        padding: 40px;
+        margin: 0;
+        background-color: #000;
+        font-family: sans-serif;
+      }
+      /* Below code centers canvas to the middle of the page */
+      canvas {
+        padding: 0;
+        margin: auto;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      figure {
+        width: 12%; /*width of the logo*/
+        margin: 0px;
+        padding: 7px;
+        float: left;
+        border-style: dashed;
+        border-color: red;
+        border-radius: 0.5px;
+        background-color: rgba(255,255,255,0.8);
+        z-index: 1;
+      }
+
+      .hoverboi{
+        position: relative;
+        display: inline-block;
+
+      }
+
+      figcaption {
+
+        text-transform: uppercase;
+        color: #428bca;
+        font-size: 15px;
+        z-index: 1;
+      }
+
+      span.year {
+        color: red;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 0;
+        color: rgb(180,180,180);
+      }
+
+      p{
+        font-size: 10px;
+        color: red;
+      }
+    </style>
+    <!---calls the lotus file--->
+
+    <script src="../p5.min.js"></script>
+    <script src_"..addons/p5.dom.min.js"></script>
+    <script src_"..addons/p5.sound.min.js"></script>
+    <script src="lotus_anim.js"></script>
+
+  </head>
+  <body>
+    <figure>
+      <img src="rubin_logo.png" alt="Rubin Logo"/ height="50px" >
+      <figcaption>Virtual Worlds <br/> Teens Code <span class="year">2018</span> </figcaption>
+      <p>This is Angel's lotus animation</p>
+    </figure>
+    <footer> <p>Created with <3 using p5.js</p> </footer>
+  </body>
+</html>
